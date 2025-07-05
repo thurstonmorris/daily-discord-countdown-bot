@@ -14,5 +14,5 @@ jobs:
           WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_BEDTIME }}
         run: |
           curl -H "Content-Type: application/json" \
-               -d '{"content":"@undrcovrbun1451 @sarahshaye @gpt4456 🛌 It'\''s 4:30 AM—time to go to bed!"}' \
+               -d '{"content":"<@739843494842990684> <@828749567880069120> <@1180454471986315294> 🛌 It'\''s 4:30 AM—time to go to bed!"}' \
                $WEBHOOK
